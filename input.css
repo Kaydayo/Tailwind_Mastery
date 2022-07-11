@@ -36,12 +36,13 @@ body{
 
 .hamburger-top,
 .hamburger-middle,
-.hamburger-buttom{
+.hamburger-bottom{
     position: absolute;
     top: 0;
     left: 0;
     width: 24px;
-    height: 24px;
+    height: 4px;
+    border-radius: 5px;
     background: #000;
     transform: rotate(0);
     transition: all 0.5s;
