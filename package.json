@@ -1,0 +1,25 @@
+{
+  "name": "tailwind_mastery",
+  "version": "1.0.0",
+  "description": "Mastering the art of Tailwind",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./input.css -o ./css/main.css",
+    "watch": "tailwindcss -i ./input.css -o ./css/main.css --watch"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kaydayo/Tailwind_Mastery.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kaydayo/Tailwind_Mastery/issues"
+  },
+  "homepage": "https://github.com/Kaydayo/Tailwind_Mastery#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.1.5"
+  }
+}
